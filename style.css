@@ -1,0 +1,16 @@
+.jumbotron{
+    margin-top: 3rem;
+    background-color : #e2edff;
+}
+#project{
+    background-color : #e2edff;
+}
+h1{
+    font-weight : 700;
+}
+section{
+    padding-top: 3rem;
+}
+nav{
+    padding : 5rem;
+}

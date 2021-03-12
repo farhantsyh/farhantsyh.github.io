@@ -1,0 +1,14 @@
+nav .navba-brand a{
+    font-family : 'Poppins', sans-serif;
+}
+
+.jumbotron{
+    margin-top : 60px;
+}
+.jumbotron img:hover{
+    transform: scale(1);
+}
+
+footer{
+    padding-top:50px;
+}
