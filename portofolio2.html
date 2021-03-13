@@ -192,10 +192,10 @@
         form.addEventListener('submit', e => {
           e.preventDefault();
           btnLoad.classList.toggle("d-none");
-          btnKirim.classList.toggle("d-none");
+          btnKirim.classList.toggle("d-none");        
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => 
-            {
+            {     
                 btnKirim.classList.toggle("d-none");
                 btnLoad.classList.toggle("d-none");
                 myAlert.classList.toggle("d-none");
